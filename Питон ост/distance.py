@@ -1,0 +1,11 @@
+def func():
+    A=input('X1')
+    B=input('Y1')
+    C=input('X2')
+    D=input('Y2')
+    A=int(A)
+    B=int(B)
+    C=int(C)
+    D=int(D)
+    F=float(((C-A)**2+(D-B)**2)**0.5)
+    print(F)
